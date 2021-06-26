@@ -86,9 +86,35 @@ img{
 	height: auto;
 }
 
-section{
+#sec01{
 	clear:both;
 	padding-top: 70px;
+}
+
+#sec02{
+	clear:both;
+	padding-top: 70px;
+}
+
+#sec03{
+	clear:both;
+	padding-top: 70px;
+}
+
+#sec4{
+	clear:both;
+}
+
+#sec05{
+	clear:both;
+	padding-top: 70px;
+}
+
+#sec06 {
+	clear:both;
+	padding-top: 70px;
+	position: relative;
+	bottom: 40px;
 }
 
 section h2{
@@ -107,11 +133,6 @@ section h2 span {
 	padding: 0 80px;
 }
 
-#sec06 {
-	position: relative;
-	bottom: 120px;
-}
-
 .inner{
 	width: 94%;
 	margin: 0 auto;
@@ -122,6 +143,26 @@ section h2 span {
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
+	text-align: center;
+}
+
+.projectS{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.mapsSec{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.tableSec{
+	width: 60%;
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -274,7 +315,7 @@ section h2 span {
 		font-size:14px;
 	}
 
-  a#menu{
+  	a#menu{
 		display:none;
 	}
 
@@ -286,6 +327,7 @@ section h2 span {
 		display: inline-block;
 		padding: 50px 19px;
 		font-size: 15px;
+		font-weight: 400;
 	}
 
 
@@ -325,6 +367,10 @@ section h2 span {
 	.innerS{
 		width: 94%;
 		padding-bottom: 70px;
+	}
+	.projectS{
+		width: 94%;
+		padding-bottom: 0px;
 	}
 	.col3 li{
 		line-height: 1.7;
@@ -486,13 +532,14 @@ section h2 span {
 	#mainImg img{
 		display:block;
 		margin: 0 auto;
+		padding-top: 70px;
 	}
 	.col3 li{
 		margin: 50px auto 0 auto;
 		display: block;
 	}
-	section{
-		padding-top: 50px;
+	#sec01, #sec02, #sec03, #sec04, #sec05, #sec06{
+		padding-top: 20px;
 	}
 	section h2{
 		margin: 0 auto 20px;
