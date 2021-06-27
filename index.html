@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width">
 <title>SAMPLE COMPANY | 最新技術と自然との調和を目指す</title>
 <link rel="stylesheet" media="all" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </head>
 
@@ -18,15 +18,14 @@
 			<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 			<div class="panel">
 				<ul>
-					<!-- <li><a href="#top">TOP</a></li> -->
 					<li><a href="#sec01">MESSAGE</a></li>
 					<li><a href="#sec02">GALLERY</a></li>
 					<li><a href="#sec03">PROJECT</a></li>
 					<li><a href="#sec04">BRAND</a></li>
 					<li><a href="#sec05">COMPANY</a></li>
 					<li><a href="#sec06">RECRUIT</a></li>
-					<li><a href="#">BLOG</a></li>
-					<li><a href="#">RESERVE</a></li>
+					<li><a href="https://beauty.hotpepper.jp/slnH000385652/blog" target="_blank">BLOG</a></li>
+					<li><a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000385652" target="_blank" rel="noopener noreferrer">RESERVE</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -34,7 +33,7 @@
 </header>
 
 <div id="mainImg">
-	<img src="images/入り口1.jpg" alt="">
+	<img class="entrance" src="images/入り口1.jpg" alt="入口">
 </div>
 
 <!-- MESSAGE -->
@@ -60,9 +59,6 @@
 		<li><img src="images/内装1.jpg" alt=""></li>
 		<li><img src="images/内装5.jpg" alt=""></li>
 		<li><img src="images/ワックス.jpg" alt=""></li>
-		<!-- <li><img src="images/photo07.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo08.jpg" width="426" height="418" alt=""></li>
-		<li><img src="images/photo09.jpg" width="426" height="418" alt=""></li> -->
 	</ul>
 </section>
 <!-- // GALLERY -->
@@ -72,13 +68,11 @@
 	<header>
 		<h2><span>Project</span></h2>
 	</header>
-	<div class="innerS">
+	<div class="projectS">
 		<img src="images/シャンプー3.jpg" width="" height="" alt="" id="project_img">
 		<p>ちかごろ世間で日本歴史の今さらこと新しくいうには科学的研究ということがしきりに叫ばれているということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいうには及ばないはずである。科学的研究というのが近代史学の学問的方法によるちかごろ世間で日本歴史の科学的研究及ばないはずである。</p>
 	</div>
 </section>
-<!-- // PROJECT -->
-<img src="images/subImg.jpg" alt="" id="subimg">
 <!-- BRAND -->
 <section id="sec04">
 	<header>
@@ -87,15 +81,15 @@
 	<div class="inner">
 		<ul class="col3">
 			<li>
-				<p class="img"><img src="images/staff.jpg" width="300" height="106" alt=""></p>
+				<div class="col3_img equipment"></div>
 				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
 			</li>
 			<li>
-				<p class="img"><img src="images/mikamisample.jpg" width="300" height="106" alt=""></p>
+				<div class="col3_img equipment2"></div>
 				<p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
 			</li>
 			<li>
-				<p class="img"><img src="images/logo03.png" width="170" height="106" alt=""></p>
+				<div class="col3_img equipment3"></div>
 				<p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
 			</li>
 		</ul>
@@ -111,21 +105,15 @@
 	<header>
 		<h2><span>Company</span></h2>
 	</header>
-	<div class="innerS">
+	<div class="mapsSec">
 		<ul class="col2">
 			<li>
 				<p>〒153-0064<br> 東京都目黒区下目黒2-17−2 第1東和ビル 1F</p>
 				<p>TEL 03-6420-0244</p>
-				<!-- <p>e-Mail info@example.com</p> -->
 				<p>営業時間 10:00〜19:00（火曜定休）</p>
-				<!-- <p>※都合により休業する場合がございます</p> -->
 				<p id="sns">
-					<!-- <a href="#" target="_blank"><img src="images/iconFb.png" width="20" height="20" alt="FB"></a> -->
-					<!-- <a href="#" target="_blank"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a> -->
 					<a href="https://www.instagram.com/double_hairsalon/" target="_blank"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a>
-					<!-- <a href="#" target="_blank"><img src="images/iconYouTube.png" width="20" height="20" alt="You Tube"></!-->
-
-						<!-- インスタ別画像 -->
+					<!-- インスタ別画像 -->
 					<a href="https://www.instagram.com/double_hairsalon/" target="_blank"><img src="images/インスタ.png" width="20" height="20" alt="Instagram" class="insta2"></a>
 
 				</p>
@@ -141,14 +129,12 @@
 	</div>
 </section>
 <!-- // COMPANY -->
-
-
 <!-- 求人 -->
 <section id="sec06">
 	<header>
 		<h2><span>Recruit</span></h2>
 	</header>
-	<div class="innerS">
+	<div class="tableSec">
 		<ul class="col2">
 				<table class="table6">
 						<tbody>
