@@ -229,7 +229,7 @@ section h2 span {
 .col3 .equipment2{
 	background-image: url("../images/器具2.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 }
 .col3 .equipment3{
 	background-image: url("../images/器具4.jpg");
