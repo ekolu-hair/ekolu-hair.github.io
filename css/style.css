@@ -221,7 +221,7 @@ section h2 span {
 ------------------------------------------------------------*/
 .col3 .col3_img{
 	display: block;
-	margin: 0 auto 5px;
+	margin: 0 auto 20px;
 	width: 227px;
 	height: 181px;
 }
@@ -251,6 +251,10 @@ section h2 span {
 	line-height: 0 !important;
 	/* スタッフ画像を入れるからこの背景色不要かも */
 	background: #f6f6f6;
+}
+.equipment_header{
+	font-size: 22px;
+	text-align: center;
 }
 
 #sec04_02{
