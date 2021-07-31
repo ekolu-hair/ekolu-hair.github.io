@@ -169,6 +169,25 @@ section h2 span {
 	margin: 0 auto;
 	text-align: center;
 }
+.tableSec li {
+	margin-top: 10px;
+	display: inline-block;
+	width: 100%;	
+}
+.footer_link_buttoms {
+	font-size: 15px;
+    font-weight: bold;
+	border: 1px solid #000;
+	color: #000;
+	letter-spacing: 1px;
+	display: block;
+	padding: 16px 0;
+	cursor:pointer;
+}
+.fab_icon {
+	margin-left: 5px;
+	vertical-align: middle;
+}
 
 
 /* SEC02 Gallery
@@ -368,6 +387,9 @@ section h2 span {
 	.col2 li:first-child{
 		width: 35%;
 		padding-right: 4%;
+	}
+	.col2_half li{
+		width: 50%;
 	}
 }
 
