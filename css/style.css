@@ -172,7 +172,7 @@ section h2 span {
 .tableSec li {
 	margin-top: 10px;
 	display: inline-block;
-	width: 100%;	
+	width: 100%;
 }
 .footer_link_buttoms {
 	font-size: 15px;
@@ -272,8 +272,9 @@ section h2 span {
 	background: #f6f6f6;
 }
 .equipment_header{
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
+	font-family: fantasy;
 }
 
 #sec04_02{
