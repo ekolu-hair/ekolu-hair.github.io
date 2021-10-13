@@ -278,7 +278,7 @@ section h2 span {
 }
 
 #sec04_02{
-	background: url(../images/店内素材ハサミ.jpg) no-repeat 100% 100% fixed;
+	background: url(../images/scissors.jpg) no-repeat 100% 100% fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
@@ -577,6 +577,12 @@ section h2 span {
 	}
 	section h2 span {
 		padding: 0 30px;
+	}
+	#sec04_02{
+		background: url(../images/scissors.jpg) 100%;
+		background-size:100%;
+		margin-top: 30px;
+		padding: 30px 20px 30px;
 	}
 }
 
