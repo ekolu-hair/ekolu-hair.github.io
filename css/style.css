@@ -279,10 +279,8 @@ section h2 span {
 
 #sec04_02{
 	background: url(../images/scissors.jpg) no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
 	text-align: center;
-	padding: 220px 20px;
+	padding: 180px 20px;
 }
 
 #sec04_02 img{
@@ -580,9 +578,10 @@ section h2 span {
 	}
 	#sec04_02{
 		background: url(../images/scissors.jpg) 100%;
+		background-repeat: no-repeat;
 		background-size:100%;
 		margin-top: 30px;
-		padding: 30px 20px 30px;
+		padding: 100px 20px 100px;
 	}
 }
 
